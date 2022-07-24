@@ -1,0 +1,19 @@
+@import url("/assets/fonts/fonts.css");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1440px;
+
+}
+
+.header{
+  height: 110vh;
+  background-image: url('../img/groupme.svg');
+  background-position-x: 663px;
+  background-repeat: no-repeat;
+}
+
