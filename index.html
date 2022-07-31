@@ -7,6 +7,7 @@
     <title>Mirage |HTML & CSS</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header class="header">
@@ -195,7 +196,7 @@
         </section>
         <!-- our teamwork end -->
       </div>
-      <div class="left" style="transform: translateY(-150px);"></div>
+      <div class="left" style="transform: translateY(-150px)"></div>
       <div class="container">
         <!-- Testimonial  group start -->
         <section class="testimonial-group">
@@ -240,46 +241,108 @@
         </div>
       </div>
       <!-- container end -->
-      <section class="subscribe">
+      <section class="subscribe-our">
         <img
           src="assets/img/mail-sub.svg"
-          alt="mail image"
-          class="logo-subsicrabe"
+          width="250"
+          height="250px"
+          alt="sub-email-image"
         />
-        <div class="scribe-body">
-          <h3 class="subscribe-heading">Subscribe To Our Blog</h3>
-          <p class="subscribe-paragriph">
+        <!-- image end -->
+        <!-- header subscribe -->
+        <div class="header-subscribe">
+          <h2 class="header-two__heading">Subscribe To Our Blog</h2>
+          <p class="header-pragriph">
             A newsletter is a tool used to communicate regularly with your
             subscribers, delivering the information
           </p>
-
-          <form action="server.js">
-            <!-- subscribe form -->
-            <div class="scribe-form">
-              <img src="assets/img/email.svg" alt="email icon" />
+          <!-- form subscribe -->
+          <div class="form">
+            <div class="form-type">
+              <img src="assets/img/email.svg" alt="mail-sub" />
               <input
                 type="email"
-                name="email"
                 id="email"
-                class="email-input"
-                placeholder="Type Your Email Address"
+                class="email-sub"
+                placeholder="Type your email address"
               />
-              <button class="email-btn">
-                submit
-              </button>
             </div>
-            <!-- subscribe form -->
-          </form>
-          <!-- form end -->
-          <!-- background image right start -->
-          <img src="assets/img/bloob-right.svg" alt="background right" />
-          <!-- background image right end -->
+            <button type="submit" class="subscribe-btn">Send now</button>
+          </div>
+          <!-- form subscribe -->
         </div>
+        <div class="right-subscirbe"><img src="assets/img/bloobs-2.png" style="margin-left:82px; background-repeat: no-repeat; " alt=""></div>
       </section>
     </main>
 
     <!-- main start -->
     <!-- footer start -->
-    <footer class="footer"></footer>
+  <footer class="footer">
+      <div class="container">
+        <div class="use-foot">
+          <!-- logo part -->
+          <div class="logo-part">
+            <a href="#" class="logo">
+              <img src="assets/img/logo.svg" alt="logo" >
+            </a>
+            <p class="foot-logo__paragriph">
+              560 N Riverview D Ste 658 <br>
+              North Carolina DA 598745 USA
+            </p>
+            <div class="socails">
+              <h3 class="fallow">Follow us on</h3>
+              <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+          <!-- logo part -->
+          <!-- resources start  -->
+          <div class="resources">
+            <a class="resources-link" href="#">Resouces</a>
+            <ol>
+              <li><a href="#">Revisions</a></li>
+              <li><a href="#">Sheets</a></li>
+              <li><a href="#">Quiz</a></li>
+              <li><a href="#">Drill</a></li>
+            </ol>
+          </div>
+          <!-- resources end  -->
+          <!-- about section -->
+          <div class="about-us">
+            <a href="#" class="about-link">About</a>
+            <ol>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Careers</a></li>
+            </ol>
+          </div>
+          <!-- about section -->
+          <!-- helpfull link -->
+          <div class="helpfull">
+            <a href="#" class="help-link">Helpful link</a>
+            <ol>
+              <li><a href="#">Mirage</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Industries</a></li>
+              <li><a href="#">Services</a></li>
+            </ol>
+          </div>
+          <!-- helpfull link -->
+        </div>
+      </div>
+    <div class="footer-foot">
+            
+      <p class="paragriph-footer">
+
+      </p>
+      <datalist title="language">
+        <img src="" alt="">
+        <span>Eng</span>
+      </datalist>
+  </div>
+  </footer>
   </body>
 </html>
